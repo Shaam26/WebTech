@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Document</title>
+  <style>
+
+    
+    #main-section {
+      color:rgb(21, 21, 26);
+
+    }
+    #main-section h1{
+      background-color: blueviolet;
+    }
+
+    #header-section >button{
+      color:brown;
+    }
+
+
+    #main-section :hover{
+      color:rgb(180, 24, 97);
+      cursor: pointer;
+    }
+
+    #header-section::first-letter{
+      color:blue;
+    }
+
+    
+
+    p::selection{
+      background-color: yellow;
+    }
+    .footer-section h1+p{
+      color:grey;
+      font-weight: bold;
+
+    }
+
+    .main-section h1~p{
+      color:rgb(232, 43, 55);
+    }
+
+
+  </style>
+</head>
+<body>
+  <div id="main-section">
+  <h1>
+    <i>sample</i> heading!!
+  </h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio labore eos iste commodi est quaerat architecto id nesciunt voluptatibus debitis? Cumque ad unde tempora eius quidem praesentium labore laboriosam rerum!</p>
+  <button>Read more</button>
+  </div>
+
+  <div id="header-section">
+  <h1>
+    sample heading!!
+  </h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio labore eos iste commodi est quaerat architecto id nesciunt voluptatibus debitis? Cumque ad unde tempora eius quidem praesentium labore laboriosam rerum!</p>
+  <button>Read more</button>
+  </div>
+
+   <div class="footer-section">
+  <h1>
+    <i>sample</i> heading!!
+  </h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio labore eos iste commodi est quaerat architecto id nesciunt voluptatibus debitis? Cumque ad unde tempora eius quidem praesentium labore laboriosam rerum!</p>
+  <button>Read more</button>
+  </div>
+
+   <div class="main-section">
+  <h1>
+    <i>sample</i> heading!!
+  </h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio labore eos iste commodi est quaerat architecto id nesciunt voluptatibus debitis? Cumque ad unde tempora eius quidem praesentium labore laboriosam rerum!</p>
+  <button>Read more</button>
+  </div>
+  
+</body>
+</html>
