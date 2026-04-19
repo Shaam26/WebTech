@@ -1,0 +1,23 @@
+body{
+  margin:0px;
+}
+#links-section{
+
+  background-color: black;
+  padding:20px;
+  text-align: center;
+}
+#links-section >a{
+  color:white;
+  font-size: 30px;
+  text-decoration: none;
+  background-color: orange;
+  width:160px;
+  display: inline-block;
+  border-radius: 10px;
+
+}
+#links-section > a:hover{
+  box-shadow: 0 0 10px white;
+  
+}
