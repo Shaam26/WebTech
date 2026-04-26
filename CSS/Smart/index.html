@@ -1,0 +1,106 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin:0px;
+    }
+    nav{
+       background: linear-gradient(45deg, darkslategrey, rgb(155, 10, 119));
+      color: white;
+      padding:15px;
+      justify-content: space-between;
+      display: flex;
+      align-items: center;
+    }
+    
+    nav>#links-section>a{
+      text-decoration: none;
+      color:aliceblue;
+      font-size:25px;
+     
+      
+    }
+    nav>#links-section>a:hover{
+      text-decoration: underline;
+    }
+    #landing-page{
+      background-color: yellow;
+      height:100vh;
+    }
+     #landing-page>.content-section{
+      background-image:url("cartimg.avif");
+      background-repeat:no-repeat;
+      background-size: cover;
+      height:inherit;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     }
+      #landing-page>.content-section>h1>{
+        font-size:45px;
+
+      }
+      #landing-page>.content-section>p{
+        font-size:20px;
+        line-height: 25px;
+      }
+      #landing-page>.content-section>button{
+        background-color: white;
+        color:(rgb(208, 122, 63));
+        padding:10px 20px;
+        border:none;
+        outline:none;
+        margin-top:10px;
+        border-radius:10px;
+      }
+      #landing-page>.content-section>button:hover{
+        cursor:pointer;
+      }
+
+
+
+
+@media screen and(min-width:0px)and(max-width:560px)
+{
+      nav{
+       flex-direction: column;
+      }
+      #landing-page>.content-section>h1>
+      {
+        font-size:30px;
+      }
+
+    }
+
+  </style>
+ </head>
+ <body>
+  <nav>
+    <h1>🛒 Smart</h1>
+    <div id="links-section">
+      <a href="#">Vegetables</a>
+      <a href="#">Fruits</a>
+      <a href="#">Cosmetics</a>
+      <a href="#">Dairy-items</a>
+
+    </div>
+  </nav>
+  <section id="landing-page">
+    <div class="content-section">
+      <h1>Hurry Up!! Offer ends Soonn...</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur omnis perferendis doloribus eveniet? Quam itaque ullam eius dolorum consectetur debitis architecto possimus rem hic reiciendis dolore, alias libero laborum vel.</p>
+      <button>Order now</button>
+
+    </div>
+
+  </section>
+  
+ </body>
+ </html>
