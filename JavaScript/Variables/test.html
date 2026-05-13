@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Document</title>
+  <script>
+    let n;//global variable
+    n=10;
+
+    function main(){
+      console.log("start");
+      console.log(n);
+      console.log("end");
+    }
+    main(); //function call
+    console.log(n);
+
+
+    console.log("--------");
+    function m1(){
+      console.log("start");
+      let n1=1000;   //local variable
+      console.log(n1);
+      console.log("end");
+    }
+    m1();
+   // console.log(n1) // get error
+
+  </script>
+</head>
+
+<body>
+  <h1>Js basics</h1>
+  
+</body>
+</html>
